@@ -1,0 +1,572 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3934,
+      "max": [
+        6.8944816589355469,
+        4.3729720115661621,
+        4.3359417915344238
+      ],
+      "min": [
+        -5.1549348831176758,
+        -6.7289166450500488,
+        -3.7213461399078369
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 47208,
+      "componentType": 5126,
+      "count": 3934,
+      "max": [
+        0.99957621097564697,
+        0.99973928928375244,
+        0.9999382495880127
+      ],
+      "min": [
+        -0.99994707107543945,
+        -0.99983799457550049,
+        -0.99996888637542725
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 23592,
+      "max": [
+        3933
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 94416,
+      "componentType": 5126,
+      "count": 131,
+      "max": [
+        0.99713099002838135,
+        0.99802666902542114,
+        0.99921309947967529
+      ],
+      "min": [
+        -0.99990016222000122,
+        -1.0086220502853394,
+        -0.99946212768554688
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 95988,
+      "componentType": 5126,
+      "count": 131,
+      "max": [
+        0.98812770843505859,
+        0.98821818828582764,
+        0.99116921424865723
+      ],
+      "min": [
+        -0.99377357959747314,
+        -0.99605774879455566,
+        -0.99033850431442261
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 131,
+      "max": [
+        1.0000001192092896,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 94368,
+      "componentType": 5125,
+      "count": 690,
+      "max": [
+        130
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.041666667908430099
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -900,
+        -299.40338134765625,
+        -1459.2369384765625
+      ],
+      "min": [
+        -900,
+        -300,
+        -1459.2369384765625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 8,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        0.041666667908430099
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        -900,
+        -299.40338134765625,
+        -1459.2369384765625
+      ],
+      "min": [
+        -900,
+        -300,
+        -1459.2369384765625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 16,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        1.6666666269302368
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        -900,
+        400,
+        -1459.2369384765625
+      ],
+      "min": [
+        -900,
+        -300,
+        -1459.2369384765625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 340,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        1.6666666269302368
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 1020,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        -900,
+        400,
+        -1459.2369384765625
+      ],
+      "min": [
+        -900,
+        -300,
+        -1459.2369384765625
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 7,
+            "path": "translation"
+          }
+        }
+      ],
+      "name": "Sphere.001|CameraAction",
+      "samplers": [
+        {
+          "input": 7,
+          "interpolation": "LINEAR",
+          "output": 8
+        }
+      ]
+    },
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 7,
+            "path": "translation"
+          }
+        }
+      ],
+      "name": "Sphere.001|SceneAction",
+      "samplers": [
+        {
+          "input": 9,
+          "interpolation": "LINEAR",
+          "output": 10
+        }
+      ]
+    },
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 7,
+            "path": "translation"
+          }
+        }
+      ],
+      "name": "Sphere.001|SphereAction",
+      "samplers": [
+        {
+          "input": 11,
+          "interpolation": "LINEAR",
+          "output": 12
+        }
+      ]
+    },
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 7,
+            "path": "translation"
+          }
+        }
+      ],
+      "name": "Sphere.001|SphereAction.001",
+      "samplers": [
+        {
+          "input": 13,
+          "interpolation": "LINEAR",
+          "output": 14
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "curiositysphere (https://sketchfab.com/curiositysphere)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cloud-sun-lowpoly-432217560dbf461c83faa027d077de07",
+      "title": "Cloud & Sun Lowpoly"
+    },
+    "generator": "Sketchfab-7.81.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 97128,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1048,
+      "byteOffset": 97128,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 97560,
+      "byteOffset": 98176,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 664,
+      "byteOffset": 195736,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1992,
+      "byteOffset": 196400,
+      "byteStride": 12,
+      "name": "floatBufferViews"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 198392,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "Cloud.001__0",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          0.55407600000000001,
+          0,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cloud.001__0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Sphere.001_sun_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3,
+            "TEXCOORD_0": 5
+          },
+          "indices": 6,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1.6081226229577292e-16,
+        0,
+        0,
+        -1.6081226229577292e-16,
+        1,
+        0,
+        -66.186172485351562,
+        0.1590588241815567,
+        -5.3740121074952185e-05,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "13a31b296d6a42a59d17bc0fc5f904dd.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": ""
+    },
+    {
+      "children": [
+        5,
+        7
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Cloud.001",
+      "rotation": [
+        -0.55450719594955444,
+        0.43877306580543518,
+        0.43877315521240234,
+        0.55450707674026489
+      ],
+      "scale": [
+        100.00000762939453,
+        100.00000762939453,
+        100
+      ],
+      "translation": [
+        -124.10353088378906,
+        49.943458557128906,
+        -1076.5068359375
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Cloud.001__0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "Sphere.001",
+      "rotation": [
+        -0.7071068286895752,
+        0,
+        0,
+        0.70710670948028564
+      ],
+      "scale": [
+        -299.53567504882812,
+        -299.53567504882812,
+        -299.53567504882812
+      ],
+      "translation": [
+        -900,
+        350,
+        -1459.2369384765625
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "Sphere.001_sun_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
